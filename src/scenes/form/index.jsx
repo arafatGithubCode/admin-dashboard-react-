@@ -2,9 +2,10 @@ import { Box, Button, TextField } from "@mui/material";
 import { Formik } from "formik";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
-import { checkoutSchema, initialValues } from "../../validator/createUser";
+import { createUserSchemaValidation } from "../../validator";
 
 const Form = () => {
+  const { initialValues, checkoutSchema } = createUserSchemaValidation();
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const handleFormSubmit = (values) => {
