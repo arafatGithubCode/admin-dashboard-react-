@@ -3,6 +3,9 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./scenes/global/Topbar";
 import { ColorModeContext, useMode } from "./theme";
 import SidebarArea from "./scenes/global/Sidebar";
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "./scenes/dashboard";
+import Team from "./scenes/team";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -16,6 +19,10 @@ function App() {
           <SidebarArea isSidebar={isSidebar} />
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
+            <Routes>
+              <Route path="dashboard" element={<Dashboard />} />
+              <Route path="team" element={<Team />} />
+            </Routes>
           </main>
         </div>
       </ThemeProvider>
