@@ -1,10 +1,8 @@
-Creating an eye-catching README for your React Fancy Dashboard web app involves highlighting the features, setup instructions, and any relevant details that showcase your project effectively. Here is a template you can use and customize:
-
 ---
 
 # React Admin Dashboard
 
-![Dashboard Screenshot](path_to_screenshot.png)
+![image](https://github.com/arafatGithubCode/admin-dashboard-react-/assets/141217284/092f23cb-0615-4b69-9855-aaaaf924e58d)
 
 ## Live Demo
 Check out the live demo [here](https://admin-dashboard-react-beige.vercel.app/).
@@ -74,6 +72,6 @@ Feel free to fork the project and submit pull requests. Contributions are welcom
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries or feedback, please reach out at [your_email@example.com](mailto:your_email@example.com).
+For any inquiries or feedback, please reach out at [arafat8720@gmail.com](mailto:your_email@example.com).
 
 ---
